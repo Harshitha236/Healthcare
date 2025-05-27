@@ -4,7 +4,7 @@ import { Settings } from "lucide-react";
 
 const Sidebar = () => {
   return (
-    <aside className=" bg-indigo-50 px-6 flex flex-col justify-between rounded-bl-3xl">
+    <aside className="bg-indigo-50 px-9 flex flex-col justify-between rounded-bl-3xl">
       <nav>
         <p className="text-slate-300 text-sm py-3">General</p>
         {navigationLinks.General.map((label, index) => (

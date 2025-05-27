@@ -7,8 +7,8 @@ import DashboardOverview from "./DashboardOverview";
 
 const DashboardMainContent = () => {
   return (
-    <div className="flex flex-col lg:flex-row bg-red-900">
-      <div className="p-4 w-full lg:w-[80%]">
+    <div className="flex flex-col lg:flex-row">
+      <div className="p-4 w-full">
         <div className="flex justify-between items-center mx-6">
           <h1 className="text-blue-900 text-2xl font-bold">Dashboard</h1>
           <div className="flex items-center gap-1">

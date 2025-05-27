@@ -1,4 +1,4 @@
-import { CalendarDays, Armchair } from "lucide-react";
+import { CalendarDays, Armchair, ArrowRight, ArrowLeft } from "lucide-react";
 
 export default function CalendarView() {
   const calendarData = [
@@ -49,11 +49,11 @@ export default function CalendarView() {
       <div className="flex justify-between items-center mb-4">
         <h2 className="text-lg font-bold px-2 text-blue-900">October 2021</h2>
         <div className="flex gap-2">
-          <button className="w-6 h-6 rounded-full bg-blue-900 text-white flex items-center justify-center text-xs leading-none">
-            {"<"}
+          <button className="w-6 h-6 rounded-full text-white flex items-center justify-center text-xs leading-none">
+            <ArrowLeft className="text-blue-900" size={20}/>
           </button>
-          <button className="w-6 h-6 rounded-full bg-blue-900 text-white flex items-center justify-center text-xs leading-none">
-            {">"}
+          <button className="w-6 h-6 rounded-full text-white flex items-center justify-center text-xs leading-none">
+            <ArrowRight className="text-blue-900" size={20}/>
           </button>
         </div>
       </div>
@@ -62,8 +62,8 @@ export default function CalendarView() {
         {calendarData.map((day, index) => (
           <div
             key={index}
-            className={`flex flex-col items-center p-8 ${
-              day.highlight ? "bg-[#edf0fc]" : ""
+            className={`flex flex-col items-center p-8 rounded-lg ${
+              day.highlight ? "bg-blue-100" : ""
             } space-y-4`} 
           >
             <div

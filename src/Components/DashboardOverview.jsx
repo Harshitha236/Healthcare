@@ -5,7 +5,7 @@ import AnatomySection from "./AnatomySection";
 
 const DashboardOverview = () => {
     return(
-        <div className=" flex flex-row gap-6 ">
+        <div className=" flex flex-col md:flex-row gap-6 ">
             <AnatomySection/>
             <HealthStatusCards healthStatus={HealthStatus}/> 
         </div>
