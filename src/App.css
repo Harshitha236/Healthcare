@@ -1,0 +1,14 @@
+.app-container {
+  display: flex;
+  height: 100vh;
+  background-color: #f5f8fc; /* Light gray-blue background */
+  font-family: 'Inter', sans-serif;
+}
+
+.main-section {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  overflow-y: auto;
+  padding: 0;
+}
