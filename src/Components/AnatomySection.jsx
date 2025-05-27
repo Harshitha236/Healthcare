@@ -1,12 +1,13 @@
 import { Scan } from 'lucide-react';
 import React from 'react';
 
+
 const AnatomySection = () => {
   return (
     <div className="relative bg-indigo-50 rounded-2xl m-4 p-4 w-full max-w-md mx-auto sm:mx-4 sm:w-1/2">
       <img
         className="w-full h-full object-cover"
-        src='Atanomy.webp'
+        src='https://static.vecteezy.com/system/resources/previews/040/322/320/non_2x/ai-generated-human-muscle-structure-isolated-on-transparent-background-free-png.png'
         alt="Human Muscle Anatomy"
       />
 
